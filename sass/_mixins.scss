@@ -1,0 +1,65 @@
+@mixin a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-family: 'MontserratB';
+}
+
+@mixin h4 {
+    font-size: 20px;
+    line-height: 39px;
+    color: #3891b7;
+}
+
+@mixin p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #515151;
+}
+
+@mixin one {
+    margin-right: 17px;
+}
+
+@mixin one-img {
+    max-width: 150px;
+}
+
+@mixin h2 {
+    font-family: 'MontserratB';
+    color: #21bce2;
+    font-size: 16px;
+    padding-bottom: 12px;
+
+}
+
+@mixin h3 {
+    font-family: 'MontserratR';
+    font-size: 16px;
+    line-height: 32px;
+    color: #a4aeb5;
+}
+
+@mixin sec4-ctxt {
+    display: flex;
+    background-color: #ffff;
+    align-items: center;
+    width: 51%;
+    padding: 16px 10px;
+    border-radius: 8px;
+    margin: 0px 39px 38px 0px;
+
+}
+
+@mixin sec4 {
+    display: flex;
+}
+
+@mixin input {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    border: 1px solid #d8d8d8;
+    font-family: 'MontserratSB';
+    font-size: 16px;
+}
